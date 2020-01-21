@@ -1,4 +1,136 @@
-<h1>Hello World</h1>
-<body>
-  <p>This is the root that the Github pages</p>
-</body>
+<!DOCTYPE html> <!-- used to declare what version of html is being used -->
+  <html>
+    <head><!--Metadata lives in the head-->
+      <title>My Portfolio</title>
+      <link src="./Style/Style.css"></link>
+    </head>
+    <body><!--Content live in the Body-->
+      <nav id="top-navbar">
+        <a href="#section-showcase"><strong>Portfolio Name</strong></a>
+        <ul>
+          <li><a href="#section-home">Home</a></li>
+          <li><a href="#section-about">About</a></li>
+          <li><a href="#section-projects">Projects</a></li>
+          <li><a href="#section-blog">Blog</a></li>
+          <li><a href="#section-contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="section-showcase">
+        <div>
+          <h1>My Title here.</h1>
+          <p>describe goes here</p>
+        </div>
+      </section>
+      <aside id="sidebar">
+        <div>
+          <h3>News:</h3>
+          <p>This is aplace for some placeholder text.</p>
+        </div>
+      </aside>
+      <section id="section-home">
+        <h1>Welcom</h1>
+        <hr>
+        <p>
+          This section welcomes people to your page and summarizes what the page is about and what the purpose of it is for. Add your own comments here.
+        </p>
+      </section>
+      <section id="section-about">
+        <h1>About</h1>
+        <hr>
+        <div> <img scr=""></div>
+        <div>
+          <h4>First Last</h4>
+          <p>This is info about me</p>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Technical Skill</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Programming tools</th>
+              <td>Java, JavaScript, Python, C#, C++, R, Swift,SQL</td>
+            </tr>
+            <tr>
+              <th>Frontend tools </th>
+              <td>HTML, CSS, Bootstrap, React</td>
+            </tr>
+            <tr>
+              <th>Database tools </th>
+              <td>MongoDB, Mongoose, Firebase, SQL, MySQL</td>
+            </tr>
+            <tr>
+              <th>Version Control & Deployment tools </th>
+              <td>Git, Github, Gitlab </td>
+            </tr>
+            <tr>
+              <th>Architecture & Design </th>
+              <td>MEAN Stack, REST, Agile, TDD</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="section-projects">
+        <h1>Projects</h1>
+        <hr>
+        <p>Summary of all the projects you have worked on.</p>
+        <div>
+          <div id="projects">
+            <a href="#",target="_blank">
+              <div>
+                <p>Project</p>
+              </div>
+              <img src="" alt="project image">
+              <div>
+                <h4>Project Name</h4>
+              </div>
+              <div>
+                <small>by My Name</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="section-blog">
+        <h1>Blog</h1>
+        <hr>
+        <p>Explain what your blog will be about.</p>
+        <hr>
+        <article>
+          <h3>Topic 1</h3>
+          <small>Posted by me.name on this.date</small>
+          <p>Summary of htis blog post</p>
+          <a href="post1.html">Read More</a>
+          <hr>
+        </article>
+      </section>
+      <section id="section-contact">
+        <h1>Contacts</h1>
+        <hr>
+        <h4>Send message</h4>
+        <form action="">
+          <div>
+            <input type="text" id="name" placeholder="Your Name">
+          </div>
+          <div>
+            <input type="Email" id="email" placeholder="Your Email">
+          </div>
+          <div>
+            <input type="subject" id="subject" placeholder="Subject">
+          </div>
+          <div>
+            <textarea rows="4" id="message" placeholder="Masssage"> </textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <footer>
+        <div>
+          <p>Copyright &copy; 2020 my.name</p>
+        </div>
+      </footer>
+    </body>
+  </html>
+</html>
